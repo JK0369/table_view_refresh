@@ -1,0 +1,30 @@
+PODS:
+  - JGProgressHUD (2.2)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - JGProgressHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+
+PODFILE CHECKSUM: 6698ac3c26cae5e49260f8d3f5efdb33b4cf694d
+
+COCOAPODS: 1.10.1
