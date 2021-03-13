@@ -18,19 +18,26 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GCc-on-sbn">
                                 <rect key="frame" x="87" y="164" width="240" height="578"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ys-SW-OZD">
+                                <rect key="frame" x="184" y="772" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="2Ys-SW-OZD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4jd-NI-J4T"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GCc-on-sbn" secondAttribute="bottom" constant="120" id="Ac3-Ul-mcF"/>
+                            <constraint firstItem="2Ys-SW-OZD" firstAttribute="top" secondItem="GCc-on-sbn" secondAttribute="bottom" constant="30" id="d9v-rh-Rnb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GCc-on-sbn" secondAttribute="trailing" constant="87" id="nvQ-kf-huv"/>
                             <constraint firstItem="GCc-on-sbn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="ppV-wY-VTK"/>
                             <constraint firstItem="GCc-on-sbn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="t1h-Kd-kT9"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button" destination="2Ys-SW-OZD" id="8of-7w-OuT"/>
                         <outlet property="tableView" destination="GCc-on-sbn" id="hfG-XJ-gNA"/>
                     </connections>
                 </viewController>
@@ -42,6 +49,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
